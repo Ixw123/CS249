@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>20</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Class: Player
+--
+-player_Pos: int[2]
+-player_Health: int
+-player_Weapon: Weapon
+--
++Player(X:int, Y:int)
++getX(): x:int
++getY(): y:int
++getHealth(): health:int
++getCurrentWeapon(): weapon:Weapon
++setCurrentWeapon(weapon:Weapon)
++setX(x:int)
++setY(y:int)
++setHealth(health:int)
++setCurrentWeapon(weapon:Weapon)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
